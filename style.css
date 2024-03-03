@@ -1,0 +1,486 @@
+video{
+	width: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0%;
+	z-index: -1;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+
+ul{
+	display: flex;
+    list-style: none;
+    color: black;
+    font-size: 24px;
+    margin-top: 20px;
+
+
+}
+
+ul li a{
+	margin-inline: 30px;
+}
+
+.navbar h1{
+
+	color: black;
+	margin-left: 20px;
+	font-family: "Pacifico", cursive;
+	border-bottom: 3px solid black;
+	font-size:  35px;
+	margin-top: 18px;
+
+}
+
+.navbar h1 span{
+	color: black;
+}
+
+.main-page h1{
+	text-align: center;
+	font-family:"Oswald", sans-serif;
+	font-size: 45px;
+	margin-top: 200px;
+}
+
+.main-page h1 span{
+	color: red;
+	text-decoration: underline;
+}
+
+button{
+	width: 170px;
+	height: 40px;
+	border: 3px solid black;
+	border-radius: 22px;
+	color: black;
+	font-size: 24px;
+	background: transparent;
+	font-family: "Playfair Display", serif;
+	margin-left: 40%;
+	margin-top: 20px;
+}
+
+button:hover{
+	background-color: black;
+	color: red
+	
+}
+
+/*-------Weapon Section---------ROW------------*/
+.row{
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+
+.weapons{
+
+	width: 80%;
+	margin-top: auto;
+	text-align: center;
+	padding-top: 100px;
+	
+
+}
+
+.weapons h1{
+
+    text-transform: uppercase;
+	padding-left: 300px;
+	font-family: "Playfair Display", serif;
+	text-decoration: underline;
+
+}
+
+.weapons-cols{
+
+	flex-basis: 45%;
+	border-radius: 10px;
+	margin-bottom: 4%;
+	position: relative;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	margin: 10px auto;
+
+}
+
+.weapons-cols img{
+
+	width: 70%;
+	border-radius: 50%;
+
+}
+
+.weapons-cols h2{
+	margin-top: 14px;
+	margin-bottom: 14px;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.weapons-cols p{
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 12px;
+	text-align: left;
+}
+
+.content{
+
+	color: white; 
+	background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+	top: 0;
+	left: -83%;
+	height: 80%;
+	width: 80%;
+	padding: 10px;
+	transition: all 0.5s;
+}
+
+.content h3{
+
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	border-bottom: 1px solid white;
+}
+
+.weapons-cols:hover .content{
+	left: 0px;
+}
+
+
+/*-------------ROW1 SECTION---------*/
+
+.row1{
+
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+
+.weapons-cols1{
+
+	flex-basis: 45%;
+	border-radius: 10px;
+	margin-bottom: 4%;
+
+
+}
+
+.weapons-cols1 img{
+
+	width: 70%;
+	border-radius: 50%;
+
+
+}
+
+.weapons-cols1 h2{
+
+	margin-top: 14px;
+	margin-bottom: 14px;
+	text-align: left;
+	text-decoration: underline;
+	padding-left: 100px;
+
+}
+
+.weapons-cols1 p{
+
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 22px;
+	text-align: right;
+	padding-right: 250px;
+	justify-content: space-between;
+}
+
+/*----------ROW2 SECTION-------*/
+
+.row2{
+
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+
+.weapons-cols2{
+
+	flex-basis: 45%;
+	border-radius: 10px;
+	margin-bottom: 4%;
+}
+
+.weapons-cols2 img{
+
+	width: 70%;
+	border-radius: 50%;
+}
+
+.weapons-cols2 h2{
+
+	margin-top: 14px;
+	margin-bottom: 14px;
+	text-align: left;
+	text-decoration: underline;
+	padding-left: 100px;
+
+}
+
+.weapons-cols2 p{
+
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 22px;
+	text-align: right;
+	padding-right: 200px;
+	justify-content: space-between;
+}
+
+/*----ROW3 SECTION------*/
+
+.row3{
+
+
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+
+.weapons-cols3{
+
+	flex-basis: 45%;
+	border-radius: 10px;
+	margin-bottom: 4%;
+}
+
+.weapons-cols3 img{
+
+	width: 70%;
+	border-radius: 50%;
+}
+
+.weapons-cols3 h2{
+
+     margin-top: 14px;
+	margin-bottom: 14px;
+	text-align: left;
+	text-decoration: underline;
+	padding-left: 100px;
+
+}
+
+.weapons-cols3 p{
+
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 22px;
+	text-align: right;
+	padding-right: 200px;
+	justify-content: space-between;
+}
+
+.content3{
+
+	color: white; 
+	background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+	top: 0;
+	left: -73%;
+	height: 70%;
+	width: 70%;
+	padding: 10px;
+	transition: all 0.5s;
+}
+
+.content3 h3{
+
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	border-bottom: 1px solid white;
+}
+
+.weapons-cols3:hover .content3{
+
+	left: 0;
+}
+
+/*-----ROW4 SECTION-----*/
+
+.row4{
+
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+
+.weapons-cols4{
+
+	flex-basis: 45%;
+	border-radius: 10px;
+	margin-bottom: 4%;
+	position: relative;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	margin: 10px auto;
+	
+
+
+}
+
+
+.weapons-cols4 img{
+
+	width: 70%;
+	border-radius: 50%;
+}
+
+.weapons-cols4 h2{
+
+	margin-top: 14px;
+	margin-bottom: 14px;
+	text-align: left;
+	text-decoration: underline;
+	padding-left: 100px;
+
+}
+
+.weapons-cols4 p{
+
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 22px;
+	text-align: right;
+	padding-right: 200px;
+	justify-content: space-between;
+}
+
+.content4{
+
+	color: white; 
+	background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+	top: 0;
+	left: -73%;
+	height: 70%;
+	width: 70%;
+	padding: 10px;
+	transition: all 0.5s;
+}
+
+.content4 h3{
+
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	border-bottom: 1px solid white;
+}
+
+
+
+.weapons-cols4:hover .content4{
+
+	left: 0;
+}
+
+/*-----ROW5 SECTION----*/
+
+.row5{
+
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+
+.weapons-cols5{
+
+    flex-basis: 45%;
+	border-radius: 10px;
+	margin-bottom: 4%;
+	position: relative;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	margin: 10px auto;
+	
+}
+
+.weapons-cols5 img{
+
+	width: 70%;
+	border-radius: 50%;
+
+}
+
+.weapons-cols5 h2{
+
+	margin-top: 14px;
+	margin-bottom: 14px;
+	text-align: left;
+	text-decoration: underline;
+	padding-left: 100px;
+}
+
+.weapons-cols5 p{
+
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 22px;
+	text-align: right;
+	padding-right: 200px;
+	justify-content: space-between;
+
+}
+
+.content5{
+
+    color: white; 
+	background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+	top: 0;
+	left: -73%;
+	height: 70%;
+	width: 70%;
+	padding: 10px;
+	transition: all 0.5s;
+
+}
+
+.content5 h3{
+
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	border-bottom: 1px solid white;
+}
+
+.weapons-cols5:hover .content5{
+	left: 0;
+
+}
+
